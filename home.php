@@ -15,7 +15,6 @@ $isLoggedIn = isset($_SESSION['user_id']);
 </head>
 <body class="bg-white text-black">
 
-	<!-- Header -->
 	<header class="border-b border-[#8B8181]">
 		<nav class="max-w-6xl mx-auto px-6 py-6 flex items-center gap-6">
 			<a href="home.php" class="text-4xl font-bold">CloseRate</a>
@@ -37,7 +36,6 @@ $isLoggedIn = isset($_SESSION['user_id']);
 			<?php endif; ?>
 		</nav>
 
-		<!-- Mobile nav -->
 		<div class="md:hidden flex justify-center gap-8 pb-4 text-lg">
 			<a href="home.php" class="text-[#4368E5] font-medium">Home</a>
 			<a href="listings.php" class="text-[#595959]">Listings</a>
@@ -47,7 +45,6 @@ $isLoggedIn = isset($_SESSION['user_id']);
 
 	<main class="bg-[#F6F5F2]">
 
-		<!-- Hero -->
 		<section class="max-w-6xl mx-auto px-6 py-16 flex flex-col md:flex-row items-center gap-12">
 			<div class="flex-1 flex flex-col gap-10">
 				<div class="flex flex-col gap-4">
@@ -68,7 +65,6 @@ $isLoggedIn = isset($_SESSION['user_id']);
 				</div>
 			</div>
 
-			<!-- Hero visual: offer meter preview (replaces the expiring Figma image) -->
 			<div class="flex-1 w-full">
 				<div class="bg-white rounded-[30px] border border-[#BFBABA] p-8 flex flex-col gap-5">
 					<div class="flex items-center justify-between">
@@ -96,7 +92,6 @@ $isLoggedIn = isset($_SESSION['user_id']);
 			</div>
 		</section>
 
-		<!-- Categories -->
 		<section class="max-w-6xl mx-auto px-6 pb-16">
 			<h2 class="text-[28px] mb-8">Browse by category</h2>
 			<div class="grid grid-cols-2 md:grid-cols-4 gap-6">
@@ -117,7 +112,6 @@ $isLoggedIn = isset($_SESSION['user_id']);
 			</div>
 		</section>
 
-		<!-- How it works -->
 		<section class="max-w-6xl mx-auto px-6 pb-16">
 			<h2 class="text-[28px] mb-6">How CloseRate works</h2>
 			<div class="grid grid-cols-1 md:grid-cols-3 gap-10">
@@ -141,7 +135,6 @@ $isLoggedIn = isset($_SESSION['user_id']);
 		</section>
 	</main>
 
-	<!-- Footer -->
 	<footer class="border-t-[3px] border-[#8B8181]">
 		<div class="max-w-5xl mx-auto px-6 pt-5 pb-6">
 			<div class="flex flex-col md:flex-row md:justify-between gap-8 mb-6">
