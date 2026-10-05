@@ -1,5 +1,4 @@
 <?php
-// index.php
 session_start();
 require 'config.php';
 
@@ -49,7 +48,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <body>
 	<div class="min-h-screen grid grid-cols-1 md:grid-cols-2">
 
-		<!-- Form side -->
 		<div class="flex items-center justify-center px-6 py-10 md:px-16">
 			<div class="w-full max-w-md">
 				<h1 class="text-black text-4xl font-bold mb-10 text-center md:text-left">
@@ -113,7 +111,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 			</div>
 		</div>
 
-		<!-- Visual side -->
 		<div class="hidden md:block relative bg-[#4368E5]">
 			<img
 				src="https://storage.googleapis.com/tagjs-prod.appspot.com/v1/uLoHFXozJF/bscc7wok_expires_30_days.png"
