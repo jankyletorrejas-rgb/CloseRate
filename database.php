@@ -1,5 +1,4 @@
 <?php
-// seed.php — run this once in the browser to create demo accounts, then delete it
 require 'config.php';
 
 $demoUsers = [
